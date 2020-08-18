@@ -1,0 +1,1075 @@
+
+@font-face {
+    font-family: "Gotham Black";
+    src: url(/fonts/GothamBlack.otf);
+}
+
+@font-face {
+    font-family: "Lato Light";
+    src: url(/fonts/LatoLight.ttf);
+}
+
+@font-face {
+    font-family: Lato;
+    src: url(/fonts/LatoRegular.ttf), url(/fonts/LatoBold.ttf);
+}
+
+@font-face {
+    font-family: "Open Sans";
+    src: url(/fonts/OpenSansRegular.ttf);
+}
+
+@font-face {
+    font-family: "Brandon Grotesque Bold";
+    src: url(/fonts/BrandonGrotesque-Bold.ttf);
+}
+
+@font-face {
+    font-family: FontAwesome;
+    src: url(/fonts/font-awesome-4.7.0/fonts/FontAwesome.ttf);
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.headerMenu {
+    height: 93px;
+    background-color: #fff;
+}
+
+.navLink {
+    color: #868686;
+    line-height: 48px;
+    padding: 12px 20px;
+    font-family:Lato;
+    font-size: 13px;
+    text-transform: uppercase;
+    transition: .3s;
+}
+
+.navLink:hover {
+    border-radius: 5px;
+    background-color: #ffbb42;
+    color: #fff;
+}
+
+.siteNav {
+    margin-top: 20px;
+}
+
+.logo {
+    margin-right: 310px;
+    margin-left: 100px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.menuFlex {
+    display: flex;
+}
+
+
+.firstPart {
+    width: 100%;
+    height: 587px;
+    background-color: #709dca;
+    font-family: "Open Sans";
+    text-align: center;
+    color: #fff;
+    z-index: 1;
+}
+
+h1 {
+    font-family: "Gotham Black";
+    color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+    padding-top: 107px;
+}
+
+.contactDivFlex {
+    display: flex;
+    justify-content: center;
+}
+
+.inputField {
+    width: 282px;
+    height: 46px;
+    background-color: #fff;
+    border-radius: 5px;
+    color: #6e6e6e;
+    text-align: left;
+    line-height: 46px;
+    padding-left: 10px;
+    margin-right: 10px;
+    margin-top: 34px;
+}
+
+.inputField > p > span {
+    font-family: FontAwesome;
+    font-size: 16px;
+    margin-right: 10px;
+}
+
+.requestButton {
+    width: 211px;
+    height: 46px;
+    line-height: 46px;
+    background-color: #ffbb42;
+    text-align: center;
+    text-transform: uppercase;
+    border-radius: 5px;
+}
+
+.laptop {
+    width: 650px;
+    height: 346px;
+    position: absolute;
+    z-index: 2;
+    left: 50%;
+    transform: translate(-50%, -80%);
+}
+
+.screenPicture {
+    width: 450px;
+    height: 264px;
+    position: absolute;
+    z-index: 3;
+    left: 50%;
+    transform: translate(-50%, -98%);
+}
+
+.secondPart {
+    height: 790px;
+    text-align: center;
+    padding-top: 203px;
+    color: #394b50;
+    font-family: "Open Sans";
+
+}
+
+h2 {
+    font-family: "Gotham Black";
+    text-align: center;
+    color: #394b50;
+    text-transform: uppercase;
+}
+
+.iconsAndTextFlex {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 40px;
+    padding-top: 80px;
+}
+
+.iconsAndTextFlex > div {
+    width: 585px;
+    height: 145px;
+    text-align: left;
+    font-family: "Open Sans";
+    font-size: 13px;
+    display: flex;
+    padding: 20px;
+}
+
+.icon {
+    font-family: FontAwesome;
+    font-size: 50px;
+    color: #fff;
+    margin-right: 30px;
+    text-shadow: 
+		-0   -1px 0   #709DCA,
+		 0   -1px 0   #709DCA,
+		-0    1px 0   #709DCA,
+		 0    1px 0   #709DCA,
+		-1px -0   0   #709DCA,
+		 1px -0   0   #709DCA,
+		-1px  0   0   #709DCA,
+		 1px  0   0   #709DCA,
+		-1px -1px 0   #709DCA,
+		 1px -1px 0   #709DCA,
+		-1px  1px 0   #709DCA,
+		 1px  1px 0   #709DCA,
+		-1px -1px 0   #709DCA,
+		 1px -1px 0   #709DCA,
+		-1px  1px 0   #709DCA,
+		 1px  1px 0   #709DCA;
+}
+
+.icon:hover {
+    text-shadow: 
+		-0   -1px 0   #EB7940,
+		 0   -1px 0   #EB7940,
+		-0    1px 0   #EB7940,
+		 0    1px 0   #EB7940,
+		-1px -0   0   #EB7940,
+		 1px -0   0   #EB7940,
+		-1px  0   0   #EB7940,
+		 1px  0   0   #EB7940,
+		-1px -1px 0   #EB7940,
+		 1px -1px 0   #EB7940,
+		-1px  1px 0   #EB7940,
+		 1px  1px 0   #EB7940,
+		-1px -1px 0   #EB7940,
+		 1px -1px 0   #EB7940,
+		-1px  1px 0   #EB7940,
+		 1px  1px 0   #EB7940;
+}
+
+.iconPlusH4 {
+    display: block;
+}
+
+h4 {
+    font-family: Lato;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.thirdPart {
+    height: 620px;
+    background-color: #ffc155;
+    background-image: url(images/thirdpartimg.png);
+    background-repeat: no-repeat;
+    background-size: 55% 100%;
+}
+
+.thirdPartText {
+    width: 45%;
+    padding-top: 160px;
+    padding-left: 60%;
+    padding-right: 50px;
+    text-align: left;
+    font-family: "Open Sans";
+    font-size: 13px;
+    color: #fff;
+    line-height: 25px;
+}
+
+.thirdPartText > h2 {
+    text-align: left;
+    margin-bottom: 25px;
+    color: #fff;
+}
+
+.readMoreButton {
+    width: 145px;
+    height: 45px;
+    border: 1px solid #e7ad48;
+    border-radius: 5px;
+    text-align: center;
+    line-height: 45px;
+    font-family: Lato;
+    font-size: 14px;
+    text-transform: uppercase;
+    margin-top: 30px;
+}
+
+.fourthPart {
+    height: 750px;
+    background-color: #e7edf3;
+    padding-top: 100px;
+    text-align: center;
+    font-family: Lato;
+    font-weight: lighter;
+}
+
+.planBlockFlex {
+    display: flex;
+    margin-top: 80px;
+    padding-left: 100px;
+}
+
+.planBlock {
+    width: 388px;
+    height: 440px;
+    background-color: #fff;
+    margin-right: 2px;
+    padding-top: 35px;
+    font-family: Lato;
+    font-weight: 500;
+    font-size: 13px;
+    text-transform: uppercase;
+    line-height: 45px;
+    color: #b5bbc1;
+    transition: .3s;
+    border-radius: 5px;
+}
+
+.planBlockHeader {
+    font-family: Lato;
+    font-weight: lighter;
+    color: #818b95;
+    text-transform: uppercase;
+    margin-bottom: 25px;
+    font-size: 25px;
+}
+
+.price {
+    font-family: Lato;
+    font-weight: bold;
+    font-size: 60px;
+    line-height: 60px;
+    color: #ffbb42;
+    white-space: pre;
+}
+
+.planBlock > span {
+    font-family: Lato;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 35px;
+    color: #818b95;
+}
+
+.planBlockContent {
+    border-top: 1px solid #e2e9f0;
+    width: 330px;
+    margin-left: 30px;
+}
+
+.getStartedButton {
+    background-color: #ffbb42;
+    padding: 15px 12px;
+    border-radius: 5px;
+    line-height: 90px;
+}
+
+.planBlock:hover {
+    transform: scaleY(1.1);
+    background-color: #709dca;
+    color: #fff;
+    font-size: 14px;
+}
+
+.planBlock:hover .price {
+    color: #fff;
+    font-size: 66px;
+}
+
+.planBlock:hover .planBlockHeader {
+    color: #fff;
+    font-size: 24,5px;
+}
+
+.planBlock:hover span {
+    color: #fff;
+    font-size: 14px;
+}
+
+.fifthPart {
+    height: 720px;
+    padding-top: 155px;
+    font-family: Lato;
+    font-size: 18px;
+    text-align: center;
+    color: #394b50;
+}
+
+.iconsAndStepsFlex {
+    display: flex;
+    padding-top: 100px;
+    padding-left: 60px;
+}
+
+.stepBlock {
+    width: 215px;
+    height: 275px;
+    font-size: 13px;
+    color: #7b7b7b;
+}
+
+.stepBlock > h2 {
+    font-family: Lato;
+    font-weight: bold;
+    padding-bottom: 28px;
+    text-transform: uppercase;
+}
+
+.stepIcon {
+    font-family: FontAwesome;
+    font-size: 72px;
+    color: #fff;
+    padding-bottom: 100px;
+    text-shadow: 
+    -0   -2px 0   #8EB2D5,
+     0   -2px 0   #8EB2D5,
+    -0    2px 0   #8EB2D5,
+     0    2px 0   #8EB2D5,
+    -2px -0   0   #8EB2D5,
+     2px -0   0   #8EB2D5,
+    -2px  0   0   #8EB2D5,
+     2px  0   0   #8EB2D5,
+    -1px -2px 0   #8EB2D5,
+     1px -2px 0   #8EB2D5,
+    -1px  2px 0   #8EB2D5,
+     1px  2px 0   #8EB2D5,
+    -2px -1px 0   #8EB2D5,
+     2px -1px 0   #8EB2D5,
+    -2px  1px 0   #8EB2D5,
+     2px  1px 0   #8EB2D5,
+    -2px -2px 0   #8EB2D5,
+     2px -2px 0   #8EB2D5,
+    -2px  2px 0   #8EB2D5,
+     2px  2px 0   #8EB2D5,
+    -2px -2px 0   #8EB2D5,
+     2px -2px 0   #8EB2D5,
+    -2px  2px 0   #8EB2D5,
+     2px  2px 0   #8EB2D5;
+}
+
+.arrow1 {
+    width: 128px;
+    height: 32px;
+}
+
+.arrow2 {
+    width: 128px;
+    height: 32px;
+    padding-top: 80px;
+    margin-bottom: 250px;
+}
+
+.getStartNowButton {
+    padding: 15px 15px;
+    background-color: #ffbb42;
+    font-family: Lato;
+    font-weight: 500;
+    text-transform: uppercase;
+    border-radius: 5px;
+}
+
+.sixthPart {
+    height: 750px;
+    background-color: #ffc155;
+    text-align: center;
+    font-family: "Open Sans";
+    font-size: 16px;
+    color: #fff;
+    padding-top: 140px;
+}
+
+.sixthPart > h2 {
+    color: #fff;
+}
+
+.clientsFeedbacksFlex {
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 110px;
+    padding-top: 55px;
+}
+
+.feedBackBlock {
+    width: 548px;
+    height: 240px;
+    background-color: #fff;
+    color: #7b7b7b;
+    font-family: "Open Sans";
+    font-weight: 600;
+    font-size: 13px;
+    text-align: left;
+    margin-right: 35px;
+    margin-bottom: 15px;
+    border-radius: 3px;
+}
+
+.feedBackContent {
+    display: flex;
+    padding-top: 40px;
+    padding-left: 160px;
+    padding-right: 20px;
+    color: #919191;
+    line-height: 25px;
+}
+
+.face1{
+    background-image: url(images/faces/michle.png);
+    background-repeat: no-repeat;
+    background-position: left 30px top 40px;
+}
+
+
+.face2 {
+    background-image: url(images/faces/elisabath.png);
+    background-repeat: no-repeat;
+    background-position: left 30px top 40px;
+}
+
+.face3 {
+    background-image: url(images/faces/arter.png);
+    background-repeat: no-repeat;
+    background-position: left 30px top 40px;
+}
+
+.face4 {
+    background-image: url(images/faces/cristfr.png);
+    background-repeat: no-repeat;
+    background-position: left 30px top 40px;
+}
+
+.quote {
+    font-family: "Brandon Grotesque Bold";
+    font-size: 30px;
+    padding-right: 5px;
+}
+
+.reverseQuote {
+    font-family: "Brandon Grotesque Bold";
+    font-size: 30px;
+    transform: scaleX(-1);
+    padding-top: 110px;
+}
+
+.nameAndProfession {
+    padding-left: 180px;
+    text-transform: uppercase;
+    color: #99a9ae;
+}
+
+.names {
+    color: #f6772c;
+}
+
+.seventhPart {
+    height: 760px;
+    padding-top: 155px;
+    text-align: center;
+    font-family: Lato;
+    color: #394b50;
+    background-image: url(images/bgimg.png);
+    background-repeat: no-repeat;
+    background-position: left 150px top 330px;
+    border-bottom: 1px solid #e3e7ec;
+}
+
+.newsLetterName {
+    width: 305px;
+    height: 45px;
+    border: 1px solid #cbcbcb;
+    border-radius: 5px;
+    text-align: left;
+    line-height: 40px;
+    font-family: "Open Sans";
+    color: #a9a9a9;
+    margin-right: 15px;
+}
+
+.newsLetterEmail {
+    width: 388px;
+    height: 45px;
+    border: 1px solid #cbcbcb;
+    border-radius: 5px;
+    text-align: left;
+    line-height: 40px;
+    font-family: "Open Sans";
+    color: #a9a9a9;
+}
+
+.newsLetterEmail > span {
+    font-family: FontAwesome;
+    color: #6e6e6e;
+    padding: 0 15px;
+}
+
+.newsLetterName > span {
+    font-family: FontAwesome;
+    color: #6e6e6e;
+    padding: 0 15px;
+}
+
+.inputFieldFlex {
+    display: flex;
+    padding-left: 200px;
+    padding-top: 40px;
+}
+
+.subscribeButton {
+    padding: 15px 53px;
+    background-color: #ffbb42;
+    border-radius: 5px;
+    margin-left: 10px;
+}
+
+.addressInformation {
+    width: 280px;
+    height: 235px;
+    background-color: #394b50;
+    border-radius: 50%;
+    text-align: center;
+    color: #fff;
+    margin: 90px auto;
+    padding-top: 45px;
+}
+
+.address {
+    line-height: 30px;
+    font-family: "Open Sans";
+    font-size: 13px;
+    color: #a2abae;
+}
+
+.addressHeader {
+    margin: 0;
+    margin-bottom: 20px;
+}
+
+.contactEmail {
+    color: #ffbb42;
+}
+
+.triangle {
+    width: 0;
+    height: 0;
+    border: 15px solid transparent; 
+    border-top: 15px solid #394b50;
+    position: relative;
+    left: 125px;
+    bottom: -45px;
+}
+
+.logo2 {
+    margin-top: 35px;
+}
+
+.lowerMenu {
+    text-align: center;
+    font-family: Lato;
+    font-size: 22px;
+    color: #394b50;
+    background-color: #fff;
+}
+
+.lowerMenuFlex {
+    display: flex;
+    padding-left: 340px;
+    margin-bottom: 30px;
+}
+
+.lowerMenuLink {
+    color: #394b50;
+    padding: 0 15px;
+    font-size: 13px;
+    text-transform: uppercase;
+}
+
+.phoneIcon {
+    font-family: FontAwesome;
+    font-size: 20px;
+    color: #394b50;
+    margin-right: 5px;
+}
+
+.socialMediaFlex {
+    display: flex;
+    font-family: FontAwesome;
+    padding-left: 610px;
+    padding-top: 20px;
+}
+
+.socialMedia {
+    color: #709dca;
+    margin-right: 17px;
+}
+
+.socialMedia:hover {
+    color: #ffc155;
+}
+
+.designeInformation {
+    height: 45px;
+    background-color: #709dca;
+    line-height: 40px;
+    font-family: "Open Sans";
+    font-size: 13px;
+    color: #fff;
+    text-align: center;
+}
+
+/*
+footer {
+    height: 45px;
+    background-color: #709dca;
+    line-height: 40px;
+    font-family: "Open Sans";
+    font-size: 13px;
+    color: #fff;
+    text-align: center;
+} */
+
+@media (max-width: 1200px) {
+
+    html {
+        width: 100%;
+    }
+
+    .headerMenu {
+        width: 100%;
+        height: auto;
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 4;
+    }
+
+    .logo {
+        margin: 10px 10px;  
+    }
+    
+    .burger-menu__button {
+        position: fixed;
+        top: 0;
+        right: 0;
+        z-index: 4;
+        background-color: #fff;
+        transition: .5s;
+        width: 68px;
+        height: 68px;
+        border: 0;
+    }
+
+    .burger-menu__lines,
+    .burger-menu__lines::after,
+    .burger-menu__lines::before {
+        position: absolute;
+        width: 34px;
+        height: 5px;
+        background-color: #868686;
+    }
+
+    .burger-menu__lines {
+        transform: translate(-50%, -50%);
+    }
+
+    .burger-menu__lines::before {
+        content: '';
+        top: -10px;
+        transform: translate(-50%,0);
+    }
+
+    .burger-menu__lines::after {
+        content: '';
+        top: 10px;
+        transform: translate(-50%,0);
+    }
+
+    .burger-menu_active .burger-menu__button, 
+    .burger-menu_active .burger-menu__lines {
+        background-color: transparent;
+    }
+
+    .burger-menu__lines::before {
+        transform: rotate(45deg);
+        top: 0;
+        right: 1%;
+    }
+
+    .burger-menu__lines::after {
+        transform: rotate(-45deg);
+        top: 0;
+        right: 1%;
+    }
+    
+    .burgerMenu__nav {
+        padding-top: 68px;
+        position: fixed;
+        z-index: 4;
+        right: -100%;
+        display: flex;
+        flex-flow: column;
+        height: 100%;
+        width: 50%;
+        background-color: #fff;
+        overflow-y: auto;
+        transition: .4s;
+    } 
+
+    .siteNav {
+        margin-top: 0;
+    }
+/*     
+    .burger-menu_active .burgerMenu__nav {
+        right: 0;
+        top: 0;
+
+    } */
+
+    .burgerMenu__link {
+        font-size: 1em;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    
+    .burger-menu__overlay {
+        display: none;
+        position: fixed;
+        top: 0;
+        right: 0;
+        width: 100%;
+        height: 100%;
+        z-index: 3;
+    }
+/* 
+    .burger-menu_active .burger-menu__overlay {
+        display: block;
+        background-color: rgba(0, 0, 0, 0.5);
+    } */
+
+    .firstPart {
+        width: 100%;
+        padding-top: 43px;
+
+    }
+
+    .firstPart > p {
+        padding: 0 10px;
+    }
+
+    .contactDivFlex {
+        flex-flow: column;
+    }
+
+    .inputField {
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .requestButton {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    }
+
+    .laptop {
+        display: none;
+    }
+
+    .screenPicture {
+        position: static;
+        z-index: 1;
+        width: 100%;
+        height: auto;
+        height: 100%;
+        transform: translate(0, 0);
+    }
+
+    .slideScreenLaptop {
+        position: static;
+        height: auto;
+    }
+
+    .secondPart {
+        padding: 70px 10px 0 10px;
+        height: auto;
+    }
+
+    .iconsAndTextFlex {
+        flex-flow: column;
+        padding-top: 20px;
+    }
+
+    .iconsAndTextFlex > div {
+        width: 100%;
+        padding: 30px 0;
+        height: auto;
+    }
+
+    .servisesText {
+        text-align: center;
+    }
+
+    .thirdPart {
+        width: 100%;
+        height: auto;
+        background-image: none;
+    }
+
+    .thirdPartText {
+        width: 80%;
+        padding: 10% 10%;
+        text-align: center;
+    }
+
+    .thirdPartText > h2 {
+        text-align: center;
+    }
+
+    .readMoreButton {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .fourthPart {
+        padding-top: 50px;
+        height: auto;
+    }
+
+    .planBlockFlex {
+        padding-left: 0;
+        margin-top: 40px;
+        flex-flow: column;
+    }
+
+    .planBlock {
+        width: 90%;
+        margin-bottom: 10px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .planBlockContent {
+        margin-left: 0;
+        width: 100%;
+    }
+
+    .fifthPart {
+        height: auto;
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    .iconsAndStepsFlex {
+        flex-flow: column;
+        padding-left: 0;
+        width: 100%;
+    }
+
+    .arrow1 {
+        display: none;
+    }
+
+    .arrow2 {
+        display: none;
+    }
+
+    .stepBlock {
+        margin-bottom: 15px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .stepIcon {
+        padding-bottom: 50px;
+    }
+
+    .sixthPart {
+        height: auto;
+        padding: 50px 10px 20px 10px;
+    }
+
+    .clientsFeedbacksFlex {
+        flex-flow: column;
+        padding-left: 0;
+    }
+
+    .feedBackBlock {
+        width: 90%;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .face1 {
+        background-position: left 60px top 30px;
+    }
+
+    .face2 {
+        background-position: left 60px top 30px;
+    }
+
+    .face3 {
+        background-position: left 60px top 30px;
+    }
+
+    .face4 {
+        background-position: left 60px top 30px;
+    }
+
+    .feedBackContent {
+        padding: 160px 30px 0 30px;
+    }
+
+    .reverseQuote {
+        padding-top: 15%;
+    }
+
+    .nameAndProfession {
+        padding: 20px 40px;
+    }
+
+    .seventhPart {
+        height: auto;
+        padding: 50px 10px 0 10px;
+        background-size: 100%;
+        background-position: left 0 top 100px;
+    }
+
+    .inputFieldFlex {
+        flex-flow: column;
+        padding-left: 20px;
+    }
+
+    .newsLetterName {
+        width: 95%;
+        margin-bottom: 10px;
+    }
+
+    .newsLetterEmail {
+        width: 95%;
+        margin-bottom: 10px;
+    }
+
+    .subscribeButton {
+        padding: 10px 15px;
+        margin-right: 50px;
+        margin-left: 30px;
+    }
+
+    .addressInformation {
+        margin: 40px auto 80px auto;
+    }
+
+    .lowerMenu {
+        height: auto;
+
+    }
+
+    .lowerMenuFlex {
+        width: 100%;
+        margin-bottom: 10px;
+        padding-left: 0;
+    }
+
+    .lowerMenuNav {
+        height: 200px;
+        column-count: 2;
+        column-width: 150px;
+        line-height: 20px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .socialMediaFlex {
+        padding-left: 0;
+        padding-bottom: 10px;
+        width: 100%;
+        justify-content: center;
+    }
+
+    .designeInformation {
+        height: auto;
+        line-height: 15px;
+        white-space: pre;
+    }
+
+}
