@@ -245,7 +245,6 @@ h4 {
 }
 
 .thirdPartText {
-    width: 45%;
     padding-top: 160px;
     padding-left: 60%;
     padding-right: 50px;
@@ -675,6 +674,7 @@ h4 {
     font-family: FontAwesome;
     padding-left: 610px;
     padding-top: 20px;
+    padding-bottom: 10px;
 }
 
 .socialMedia {
