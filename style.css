@@ -1,32 +1,32 @@
 
 @font-face {
     font-family: "Gotham Black";
-    src: url(/project2/fonts/GothamBlack.otf);
+    src: url(fonts/GothamBlack.otf);
 }
 
 @font-face {
     font-family: "Lato Light";
-    src: url(/project2/fonts/LatoLight.ttf);
+    src: url(fonts/LatoLight.ttf);
 }
 
 @font-face {
     font-family: Lato;
-    src: url(/project2/fonts/LatoRegular.ttf), url(/project2/fonts/LatoBold.ttf);
+    src: url(fonts/LatoRegular.ttf), url(fonts/LatoBold.ttf);
 }
 
 @font-face {
     font-family: "Open Sans";
-    src: url(/project2/fonts/OpenSansRegular.ttf);
+    src: url(fonts/OpenSansRegular.ttf);
 }
 
 @font-face {
     font-family: "Brandon Grotesque Bold";
-    src: url(/project2/fonts/BrandonGrotesque-Bold.ttf);
+    src: url(fonts/BrandonGrotesque-Bold.ttf);
 }
 
 @font-face {
     font-family: FontAwesome;
-    src: url(/project2/fonts/font-awesome-4.7.0/fonts/FontAwesome.otf);
+    src: url(fonts/FontAwesome.otf);
 }
 
 * {
