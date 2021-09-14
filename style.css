@@ -1,32 +1,32 @@
 
 @font-face {
     font-family: "Gotham Black";
-    src: url(/fonts/GothamBlack.otf);
+    src: url(/project2/fonts/GothamBlack.otf);
 }
 
 @font-face {
     font-family: "Lato Light";
-    src: url(/fonts/LatoLight.ttf);
+    src: url(/project2/fonts/LatoLight.ttf);
 }
 
 @font-face {
     font-family: Lato;
-    src: url(/fonts/LatoRegular.ttf), url(/fonts/LatoBold.ttf);
+    src: url(/project2/fonts/LatoRegular.ttf), url(/project2/fonts/LatoBold.ttf);
 }
 
 @font-face {
     font-family: "Open Sans";
-    src: url(/fonts/OpenSansRegular.ttf);
+    src: url(/project2/fonts/OpenSansRegular.ttf);
 }
 
 @font-face {
     font-family: "Brandon Grotesque Bold";
-    src: url(/fonts/BrandonGrotesque-Bold.ttf);
+    src: url(/project2/fonts/BrandonGrotesque-Bold.ttf);
 }
 
 @font-face {
     font-family: FontAwesome;
-    src: url(/fonts/font-awesome-4.7.0/fonts/FontAwesome.ttf);
+    src: url(/project2/fonts/font-awesome-4.7.0/fonts/FontAwesome.otf);
 }
 
 * {
@@ -62,10 +62,10 @@ a {
 
 .siteNav {
     margin-top: 20px;
+    margin-right: 20px;
 }
 
 .logo {
-    margin-right: 310px;
     margin-left: 100px;
     margin-top: 20px;
     margin-bottom: 20px;
@@ -73,6 +73,7 @@ a {
 
 .menuFlex {
     display: flex;
+    justify-content: space-between;
 }
 
 
@@ -166,6 +167,7 @@ h2 {
 .iconsAndTextFlex {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
     padding: 40px;
     padding-top: 80px;
 }
@@ -285,15 +287,14 @@ h4 {
 
 .planBlockFlex {
     display: flex;
+    justify-content: center;
     margin-top: 80px;
-    padding-left: 100px;
 }
 
 .planBlock {
     width: 388px;
     height: 440px;
     background-color: #fff;
-    margin-right: 2px;
     padding-top: 35px;
     font-family: Lato;
     font-weight: 500;
@@ -303,6 +304,11 @@ h4 {
     color: #b5bbc1;
     transition: .3s;
     border-radius: 5px;
+}
+
+.planBlock:nth-child(2){
+    margin-left: 25px;
+    margin-right: 25px;
 }
 
 .planBlockHeader {
@@ -377,8 +383,8 @@ h4 {
 
 .iconsAndStepsFlex {
     display: flex;
+    justify-content: center;
     padding-top: 100px;
-    padding-left: 60px;
 }
 
 .stepBlock {
@@ -465,7 +471,8 @@ h4 {
 .clientsFeedbacksFlex {
     display: flex;
     flex-wrap: wrap;
-    padding-left: 110px;
+    padding-left: 70px;
+    justify-content: center;
     padding-top: 55px;
 }
 
@@ -589,7 +596,7 @@ h4 {
 
 .inputFieldFlex {
     display: flex;
-    padding-left: 200px;
+    justify-content: center;
     padding-top: 40px;
 }
 
@@ -651,7 +658,7 @@ h4 {
 
 .lowerMenuFlex {
     display: flex;
-    padding-left: 340px;
+    justify-content: center;
     margin-bottom: 30px;
 }
 
@@ -672,7 +679,7 @@ h4 {
 .socialMediaFlex {
     display: flex;
     font-family: FontAwesome;
-    padding-left: 610px;
+    justify-content: center;
     padding-top: 20px;
     padding-bottom: 10px;
 }
